@@ -7,6 +7,7 @@ in your venv
 ```
 python -m pip install -e .
 ```
+create folder 'testinput' and 'weights' then the running the 'segdepth.py' shall showing the masked segmentation with annoattion of confidence level, name and depth( depth in this example is calculated by average of the depth map pixels in the masked region)
 ## Preliminary Works
 <div align='center'>
 | Title | Intro | Description | Links |
