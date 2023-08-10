@@ -1,7 +1,8 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deng232/DINO_SAM_Zoe/blob/main/DINO_SAM_Zoe.ipynb)
+
 # DINO_SAM_Zoe
 example of piping grounding-segment-anything with ZoeDepth estimation
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deng232/DINO_SAM_Zoe/blob/main/DINO_SAM_Zoe.ipynb)
+colab example use the original repose from https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main
 
 ## setup
 in your venv
