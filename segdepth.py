@@ -37,9 +37,8 @@ detections[0].mask = [masks[np.argmax(scores)] for masks, scores, _ in map(
 
 depth_map = model_zoe_nk.infer_pil(image, output_type="numpy")
 
-# list of pixles of a masked region in depth_map
-masklist = [depth_map[mask] for mask in detections[0].mask]
-
+#depth_map = model_zoe_nk.infer_pil(image, output_type="numpy")
+depth_map = model_zoe_nk.infer_pil(image, output_type="numpy",pad_input=False) # "pad_input = False" increase accuracy
 
 box_annotator = sv.BoxAnnotator(text_scale=1.5)
 mask_annotator = sv.MaskAnnotator()
